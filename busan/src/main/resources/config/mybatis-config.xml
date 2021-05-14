@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC 
+		"-//mybatis.org//DTD Config 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+		
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="false" />
+		<setting name="useGeneratedKeys" value="false" />
+		<setting name="mapUnderscoreToCamelCase" value="false" />
+	</settings>
+	
+	<typeAliases>
+		<typeAlias type="com.itbank.food.FoodDTO" alias="food"/>
+		<typeAlias type="com.itbank.cafe.CafeDTO" alias="cafe"/>
+		<typeAlias type="com.itbank.insert.MemberDTO" alias="mem" />
+		<typeAlias type="com.itbank.cart.CartDTO" alias="cart" />
+		<typeAlias type="com.itbank.review.ReviewDTO" alias="review" />
+		<typeAlias type="com.itbank.tour.TourDTO" alias="tour" />
+		<typeAlias type="com.itbank.local.LocalDTO" alias="local" />
+	</typeAliases>
+	
+</configuration>

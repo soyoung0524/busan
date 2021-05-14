@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+      "-//mybatis.org//DTD Mapper 3.0//EN" 
+      "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+      
+<!-- testDAO 객체가 참조하는 설정이다 -->      
+<!-- mapper가 interface인 경우, 패키지부터 인터페이스 이름까지 FullName으로 작성하자 (alias가 작동하지 않는다) -->
+<mapper namespace="com.itbank.review.ReviewDAO">
+   <select id="selectAllFood" resultType="review" parameterType="string">
+      select * from review where cftname = #{fname}
+   </select>
+   
+   <select id="selectAllCafe" resultType="review" parameterType="string">
+      select * from review where cftname = #{cname}
+   </select>
+   
+   <select id="selectAllTour" resultType="review" parameterType="string">
+      select * from review where cftname = #{tname}
+   </select>
+   
+   <insert id="insertReview" parameterType="review">
+      insert into review (name,cftname,content) VALUES (#{name},#{cftName},#{content})
+   </insert>
+   
+</mapper>
+
+
+
+

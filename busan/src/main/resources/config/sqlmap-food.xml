@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+		"-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		
+<mapper namespace="com.itbank.food.FoodDAO">
+
+	<select id="getSelectAll" resultType="food">
+		select * from food order by fname
+	</select>
+	
+	<select id="selectOne" resultType="food" parameterType="string">
+		select * from food where fname = #{fname}
+	</select>
+	
+	<select id="searchFood" parameterType="string" resultType="food">
+		select * from food where fname like '%'||#{search}||'%'
+	</select>
+	
+	<select id="selectOneAddr" resultType="food" parameterType="string">
+      select * from food where faddr like '%'||#{addr}||'%'
+   </select>
+	
+</mapper>

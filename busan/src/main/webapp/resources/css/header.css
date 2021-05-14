@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+.no-drag {
+	-ms-user-select: none;
+	-moz-user-select: -moz-none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	user-select:none;
+}
+.header-outline{
+    background-color: #eee; 
+    height: 55px;
+}
+.header-1{
+    max-width: 1200px; 
+    margin: 0 auto; 
+    height: inherit;
+}
+.header-1 > ul{
+    display: table; 
+    float: right; 
+    color: #666; 
+}
+.header-1 > ul > li {
+    float: left; 
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+#imgChange {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	top: -35px;
+	right: -350px;
+}
+
+.fileBtn {
+	position: relative;
+    width: 50px;
+    height: 60px;
+    top: -17px;
+    cursor: pointer;
+    left: 3px;
+    opacity: 0%;
+	
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.daddy {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header-2{
+    border-bottom: 1px solid #ddd; 
+    padding: 15px 0 15px 0; 
+    margin-bottom: 15px;
+}
+.header2-inner{
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between;
+}
+.search{
+    padding: 8px;
+}
+
+.daddy .top-outline{
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 15%);
+    margin-bottom: 4em;
+    overflow: hidden;
+    width: 1200px;
+    height: 524px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.first-d{
+    width: 300px;
+    height: inherit;
+    border-right: 1px solid #ddd;
+}
+.inner-fd{
+    width: inherit;
+    height: 80px;
+}
+.inner-fd1{
+    width: inherit;
+    height: 226px;
+}
+.fd1-inline{
+    width: 230px;
+    height: 186px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn1{
+    width: inherit;
+    height: 60px;
+    
+}
+.btn2{
+    width: inherit;
+    height: 60px;
+    
+}
+.btn3{
+    width: inherit;
+    height: 60px;
+  
+}
+#btn1-1{
+    width: 230px;
+    height: 52px;
+    margin-top: 4px;
+    background-color: rgb(40, 158, 107);
+    border: 0.5px solid rgb(40, 158, 107);
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn2-1{
+    width: 230px;
+    height: 52px;
+    margin-top: 4px;
+    background-color: #ffffff;
+    border: 0.5px solid rgb(70, 105, 167);
+    font-size: 20px;
+    color: rgb(70, 105, 167);
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn3-1{
+    width: 230px;
+    height: 52px;
+    margin-top: 4px;
+    background-color: #ffffff;
+    outline: none;
+    border: 0.5px solid rgb(236, 97, 30);
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(236, 97, 30);
+    font-weight: 600;
+    cursor: pointer;
+}
+.top-text{
+    width: inherit;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #2a9ec5; 
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.second-d{
+    width: 900px;
+    height: inherit;
+    
+}
+.inner-sd{
+    width: inherit;
+    height: 80px;
+}
+.sd-bottom{
+    width: inherit;
+    height: 422px;
+   
+}
+.map-textdiv{
+    width: 800px;
+    height: 52px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.map-text{
+    width: 700px;
+    height: 26px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: rgb(39, 29, 117);
+    font-weight: 600;
+}
+.map{
+    width: 800px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.statement {
+   width: 400px;
+   height: 355px;
+   border: 1px solid rgb(156, 156, 156);
+}
+
+.statement-div {
+   width: inherit;
+   height: 235px;
+   border: 1px solid rgb(156, 156, 156);
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+
+.statement-div-div {
+   width: 300px;
+   height: 40px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   line-height: 40px;
+}
+
+.state-middle {
+   width: 100%;
+   height: 192px;
+   border: 1px solid rgb(156, 156, 156);
+   border-bottom: none;
+   display: flex;
+}
+
+.sm-left {
+   width: 70%;
+   height: inherit;
+   border-right: 1px solid rgb(156, 156, 156);
+}
+
+.sm-right {
+   width: 30%;
+   height: inherit;
+}
+
+.sm-right-div {
+   height: 80%;
+   width: 100%;
+   margin-top: 34px;
+}
+
+.sml-top {
+   width: 100%;
+   height: 80%;
+   display: flex;
+}
+
+.sml-bot {
+   width: 100%;
+   height: 20%;
+   display: flex;
+}
+
+.sml-bot-age1, .sml-bot-age2 {
+   line-height: 40px;
+   font-size: 13.9px;
+   width: 30px;
+   height: 100%;
+   margin-left: 13px;
+   margin-right: 13px;
+}
+
+.sml-bot-age3 {
+   line-height: 40px;
+   font-size: 13.9px;
+   width: 30px;
+   height: 100%;
+   margin-left: 14px;
+}
+
+.sml-bot-age4 {
+   line-height: 40px;
+   font-size: 13.9px;
+   width: 30px;
+   height: 100%;
+   margin-left: 25px;
+}
+
+.sml-bot-age5 {
+   line-height: 40px;
+   font-size: 13.9px;
+   width: 30px;
+   height: 100%;
+   margin-left: 26px;
+}
+
+.teneo, .tweeo, .thieo, .foueo, .fifeo {
+   width: 32px;
+   height: 100%;
+   margin-top: 10px;
+   margin-left: 11.5px;
+   margin-right: 11.5px;
+   background-color: rgb(194,201,205);
+   border: 1px solid rgb(156, 156, 156);
+   
+}
+.teneo-per, .tweeo-per, .thieo-per, .foueo-per, .fifeo-per {
+   width: 30px;
+   /* height: 100%; */
+   margin-bottom: 0px;
+   border: none;
+}
+.sm-gender {
+   width: 100%;
+   height: 20%;
+   text-align: center;
+}
+.sm-gdiv {
+   width: 100%;
+   height: 20%;
+}
+.gender-man-text, .gender-wom-text {
+   text-align: center;
+}
+#gangseoBtn{
+    position: absolute;
+    height: 78px;
+    width: 70px;
+    top: 46%;
+    left: 44%;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#geumjeongguBtn{
+    position: absolute;
+    top: 32%;
+    left: 64%;
+    height: 60px;
+    width: 84px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#gijangBtn{
+    position: absolute;
+    top: 21%;
+    left: 76%;
+    width: 120px;
+    height: 100px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#namguBtn{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    height: 22px;
+    width: 70px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#dongguBtn{
+    position: absolute;
+    top: 64%;
+    left: 60%;
+    height: 8px;
+    width: 40px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+    
+    
+}
+#dongraeBtn{
+    position: absolute;
+    top: 45%;
+    left: 64%;
+    width: 52px;
+    height: 18px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#jinguBtn{
+    position: absolute;
+    top: 53%;
+    left: 59.4%;
+    width: 64px;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#bukguBtn{
+    position: absolute;
+    top: 42%;
+    left: 56.4%;
+    width: 66px;
+    height: 33px;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#sasangBtn{
+    position: absolute;
+    top: 55%;
+    left: 52.8%;
+    width: 66px;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+    font-size: 0.9em;
+}
+#sahaBtn{
+    position: absolute;
+    top: 67%;
+    left: 51.5%;
+    width: 62px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#seoguBtn{
+    position: absolute;
+    top: 70%;
+    left: 57.3%;
+    width: 37px;
+    height: 12px;
+    font-size: 12px;
+    justify-content: left;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#suyeongBtn{
+    position: absolute;
+    top: 54%;
+    left: 68.65%;
+    width: 48px;
+    height: 18px;
+    font-size: 12px;
+    justify-content: left;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#yeonjeguBtn{
+    position: absolute;
+    top: 50%;
+    left: 64.9%;
+    width: 48px;
+    height: 12px;
+    font-size: 12px;
+    justify-content: left;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#yeongdoBtn{
+    position: absolute;
+    top: 67%;
+    left: 63.7%;
+    height: 20px;
+    font-size: 0.9em;
+    justify-content: left;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#jungguBtn{
+    position: absolute;
+    top: 60.3%;
+    left: 60.4%;
+    height: 8px;
+    width: 40px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+#haeundaeBtn{
+    position: absolute;
+    top: 50%;
+    left: 73.5%;
+    width: 86px;
+    height: 28px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 217, 234);
+    cursor: pointer;
+}
+.daddy .dataList{
+    float: left;
+    position: relative;
+}
+.dataDiv {
+    width: 185px; 
+    float: left;
+    height: 200px; 
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    margin-bottom: 70px;
+}
+.dataList .dataDiv > div > a > img {
+    width: 185px; 
+    height: 132px; 
+    border-radius: 15px;
+}
+.dataName {
+    padding: 0.5em; 
+    text-align: center;
+}
+.dataAddr {
+    color: #666; 
+    text-align: center;
+}
