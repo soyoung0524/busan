@@ -1,10 +1,12 @@
-# 첫화면
-
+# 첫화면 
 ![index](https://user-images.githubusercontent.com/80303675/119100795-481f6100-ba53-11eb-95ac-509ba627d7aa.png)
+
 #
-# 회원가입
+# 회원가입 
 ![join2](https://user-images.githubusercontent.com/80303675/119100799-49e92480-ba53-11eb-9ad2-60dad0b80e23.png)
+#
 ![join3](https://user-images.githubusercontent.com/80303675/119100801-49e92480-ba53-11eb-96b4-bf6aa88165b5.png)
+#
 ![join4](https://user-images.githubusercontent.com/80303675/119100804-4a81bb00-ba53-11eb-807f-760228593761.png)
 ![join5](https://user-images.githubusercontent.com/80303675/119100805-4a81bb00-ba53-11eb-9b85-3267fc967b34.png)
 #
@@ -25,6 +27,6 @@
 ![like2](https://user-images.githubusercontent.com/80303675/119100808-4b1a5180-ba53-11eb-8be7-af805253cf21.png)
 #
 # 리뷰
-![review](https://user-images.githubusercontent.com/80303675/119100821-4d7cab80-ba53-11eb-89de-e5883dc6bcc4.png)
+![review](https://user-images.githubusercontent.com/80303675/119102858-7605a500-ba55-11eb-9de4-fb6cbc5a0a04.png)
 ![review2](https://user-images.githubusercontent.com/80303675/119100822-4e154200-ba53-11eb-9954-f55c0d161ed2.png)
 
