@@ -25,6 +25,6 @@
 ![like](https://user-images.githubusercontent.com/80303675/119105214-0b099d80-ba58-11eb-8969-00b2130f47ef.png)
 ![like2](https://user-images.githubusercontent.com/80303675/119105175-05ac5300-ba58-11eb-9484-4c5515716606.png)#
 # 리뷰
-![review](https://user-images.githubusercontent.com/80303675/119105189-080ead00-ba58-11eb-97c2-200c0d826d65.png)
+![review](https://user-images.githubusercontent.com/80303675/119106195-0db8c280-ba59-11eb-9456-752fc9af2907.png)
 ![review2](https://user-images.githubusercontent.com/80303675/119105891-bd416500-ba58-11eb-9f1e-0bbfbe529244.png)
 
